@@ -29,7 +29,7 @@ body{
     height: 10%;
     position: fixed;
     top:30%;
-    left:51%;
+    left:49%;
     font-weight: bold;
     color: rgb(24, 24, 78);
     font-size:larger;
@@ -66,4 +66,3 @@ body{
     text-align: center;
 }
 
-}

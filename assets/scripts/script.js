@@ -1,4 +1,4 @@
 let currentResult = 0;
-result = result + 10;
-let calculationDiscription ='(hi there)';
-outputResult(currentResult,'');
+currentResult = (currentResult + 10) * 3;
+let calculationDiscription = '(0+10)*3'
+outputResult(currentResult, calculationDiscription);
