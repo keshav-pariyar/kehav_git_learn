@@ -113,8 +113,102 @@ add,subtract,multiply,modula, divide , exponents
 // console.log(fruits[0])
 // array method
 // Push()-adds new element to the end of the array and returns the new leght og an array.   
- const fruits = ['apple','mango','papaya']
- console.log(fruits)
- fruits.push('mango')
- console.log(fruits)  
+//  const fruits = ['apple','mango','papaya']
+//  console.log(fruits)
+//  fruits.push('mango')
+//  console.log(fruits) 
+//  console.log(fruits.slice(0,2)); // slice method is used to pick elements of an array
+//array methods(push,slice, indexof,length)
+// const week = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
+// console.log(week);
+//  console.log(week.length)
+
+ //objects{} syntax 
+ // datatype objectname = { key1: 'value 1' , key2:'value2',  ....} 
+
+//  const person = {
+//     name: 'keshav',
+//    height: '5.3ft',
+//    weight: '50kg',
+   
+    
+//  }
+//  // accessing the obejct using dot . notation
+//  console.log(person.name)
+// accessing the obejts using bracket notation
+//  console.log(person['height'])
+//   person.phone='12356789' // assing object using dot notation
+//  console.log(person) 
+//  person['address']='bangalore'
+//  console.log(person.address)
+  // executing a person info uisng function
+//   const details = (name, age, address) =>{  //declarin a functiom
+//      const info = {   //creating an object
+//           name : name ,
+//           age : age ,
+//           address : address, 
+//           assets: 200000,
+//           liabilities : 50000,
+//           networth : function () {
+//             return this.assets - this.liabilities
+//           }  // here creating a method called networth() i.e function can aslo be used as object values.
+//           // this keyword refers to an object.
+
+//      } 
+//      const mydetails = `hi, my name is ${info.name}, i am  ${age} years old and i stay in ${address}, my netwroth is ${info.networth()}`  // decraing a variable and accesing the object values using template literals
+
+//      return mydetails
+//   }
+//   console.log(details('keshav','24','bangalore'))
+
+  // above have used arrow funtion wih an object creation to display the personal details.
+    
+
+//loops
+//  const fruits = ['apple','mango','banana','jackfruits','orange','pine appple']
+// //   for (let i=0; i < fruits.length; i++ ) {
+// //   console.log(fruits[i])
+// //   }
+// for ( const     keshav of fruits){
+//     console.log(keshav)
+
+// }
+
+// create a funtion to print the given numbers in multiple of 2 in an array.
  
+//  const multiple=(numbers)=>{  // function multiple(numbers){}
+//     let result=[]
+//     for (const number of numbers){
+        
+//         result.push(number*2)
+
+//     }
+//     return result
+//   }
+//   console.log(multiple([2,4,6,8]))
+
+//   console.log('banana'.length) 
+// above have used funtion to diplay the given numbers in multiple of two in an array format.
+// a funtion to count the strint value;
+//  const countmessage = (message) =>{
+   
+//     // let result =0
+//     // for (  letter in message){
+//     //     console.log(Number(letter) +1)
+//     //     result= Number(letter)+1
+//     // } 
+//     return(message.length) // can also be used
+    
+//  }
+//  const message='enter the message'
+//  console.log(countmessage(message))
+ // funtion to add the elemtns of an array
+
+ function sumArray(){
+    let result =0
+    for(num of numbers){
+    result=result+num
+    }
+    return(result)
+ }
+console.log(sumArray[1,2,3,4,5])
