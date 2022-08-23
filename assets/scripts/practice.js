@@ -46,11 +46,22 @@ add,subtract,multiply,modula, divide , exponents
     // }
 // functions
 
-    // function functionname(arguments){
+    // function functionname(parameters){
     //     statements;
     // }
     // functionname(arguments) calling the function;
     
+//paramaters are the variables used to define a particular value during the function definiton.parameters are used while declaring a funtion.
+// arguments are the actual values passed to the parameter of the function during the function call
+
+//example 
+//  function welcome (name) {
+//   console.log('hello ' + name);
+
+//  }
+//  welcome('keshav');
+
+  // in the above function name is the parameter and keshav is the argument passed to the function paramter
 // function displayname(){
 //     console.log('keshav');
 //     }
@@ -66,6 +77,12 @@ add,subtract,multiply,modula, divide , exponents
 //     console.log(message);
 // }
 // display('keshav') funtion displayed using template literals. is used te concatinate the user value with the strings.
+// 
+ //built in function
+ //eval function
+//  let x=8;
+//  let y = 9;
+//  console.log(eval(x+y))
 // function add(a,b){
 //     let x= `${a}`
 //     let y= `${b}`
@@ -204,11 +221,27 @@ add,subtract,multiply,modula, divide , exponents
 //  console.log(countmessage(message))
  // funtion to add the elemtns of an array
 
- function sumArray(){
-    let result =0
-    for(num of numbers){
-    result=result+num
-    }
-    return(result)
- }
-console.log(sumArray[1,2,3,4,5])
+//  function sumArray(numbers){
+//     let result = 0
+//     for(num of numbers){
+//     result=result+num
+//     }
+//     return(result)
+//  }
+//  const numbers=[1,2,3,4,5]
+// console.log(sumArray(numbers))
+ // find the max number in an array
+
+//  const large = (numbers) => {
+//   let result = numbers[0];
+//   for (number of numbers){
+//     if(number > result){
+//       result=number
+//     }
+//   }
+//   return {largest : result}
+//  }
+//  const numbers=[2,6,3,5,1]
+// console.log(large(numbers))
+// function for large numbers
+ 
