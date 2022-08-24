@@ -244,4 +244,51 @@ add,subtract,multiply,modula, divide , exponents
 //  const numbers=[2,6,3,5,1]
 // console.log(large(numbers))
 // function for large numbers
- 
+//  conditional operator
+// let a = 5;
+// let b =(a==4)?"true":"false";
+// console.log(b);
+
+// ARRAYS
+// USED TO STORE LARGE DATA OF SAME TYPE.EXAMPLE STORING  THE DETAILS OF EPLOMYEES IN THE ORGANIZATION
+  // var numbers=[3,2,5,6,4]
+  // console.log(numbers.reverse()) // array reverse method
+  // console.log(numbers.sort())
+  // console.log(numbers.push(5));
+  // console.log(numbers)
+  // console.log(numbers.push(9));
+  // console.log(numbers)  
+  // console.log(numbers.push(1));
+  // console.log(numbers)
+  // console.log(numbers)
+  // console.log(numbers.shift());// removes the first element in an array
+  // console.log(numbers.pop())
+  // console.log(numbers)
+
+// map functions
+//  const multiplier=(numbers)=>{
+//   return numbers.map(number=>number*3)
+//    }
+//   console.log(multiplier([1,2,3,4,5])) 
+
+// function to compare array elements with am given item
+
+// const compare =(numbers,compareItem)=>{
+//   let result=[]
+//   for(const number of numbers){
+//     if(number>compareItem){
+//       result.push(number)
+//     }
+//   }
+//   return result
+// }
+// console.log(compare([6,2,5,3,2,7],3))
+// function to delete the elements of an array
+const del=(array)=>{
+  for(const arr of array){
+    let a = array.pop()
+    console.log('the deleted item is '+ a)
+    }
+    // return array
+}
+console.log(del([1,2,3,4,5]))
