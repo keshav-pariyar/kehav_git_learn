@@ -284,11 +284,64 @@ add,subtract,multiply,modula, divide , exponents
 // }
 // console.log(compare([6,2,5,3,2,7],3))
 // function to delete the elements of an array
-const del=(array)=>{
-  for(const arr of array){
-    let a = array.pop()
-    console.log('the deleted item is '+ a)
-    }
-    // return array
+// const del=(array)=>{
+//   for(let i=0;i<array.length;i++){
+//     let a = array.shift()
+//     console.log('the deleted item is '+ a)
+//     }
+//     // return array
+// }
+
+// console.log(del([1,2,3,4,5]))
+// higher order function 
+// Map()
+// Filter()
+// Reduce()
+ // map function it executes a particular function on each and every elements of and existin array
+//  program to double the value of am array elemets using map function
+// const double =(array)=>{
+//  return array.map(function(number){
+//     return number *2;
+//  })
+// }
+// console.log(double([2,3,4,5]))
+//filter method()- this methods creates an new array from an exisiting array consisting
+//only those elements which satisfies the condition set by the arguemnt method.
+//creating an function to compare the array elements using filter method
+//  const compare=(array,key)=>{
+//   let result=[]
+//    for(let i=0;i<array.length;i++){
+//     if(array[i]>key){
+//     result.push(array[i])
+//     }
+//   }
+//   return result
+// }
+// console.log(compare([1,3,4,5,6],4));
+// the above task can be done using filter method()
+// const num=[2,3,4,5,6]
+// console.log(num.filter(num=>num>3||num<3))
+
+// using filters in array object
+// let course = [
+//   {name:'bca',fee:4300},
+//   {name:'arts',fee:2800},
+//   {name:'acc',fee:3200}
+// ]
+// console.log(course.filter(course => course.name != bca))
+
+// program for fizz and buzz 
+
+function fizzbuzz(input){
+  if(typeof input !== 'number')
+    {return 'enter a number'}
+    else if(input % 3===0 && input % 5===0){return 'FIZZ AND BUZZ'}
+    else if(input % 3 === 0){ return 'FIZZ'}
+    else if (input % 5 ===0){return 'BUZZ'}
+    
+    else {return input}
 }
-console.log(del([1,2,3,4,5]))
+
+console.log(fizzbuzz(15));
+
+
